@@ -1,0 +1,44 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.title {
+  margin-top: 50px;
+}
+
+/* SlotMachine.css */
+.slot-machine {
+  margin-top: 50px;
+}
+
+.reels {
+  display: flex;
+  justify-content: center;
+}
+
+.reel {
+  font-size: 4em;
+  padding: 20px;
+}
+
+.spin-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.spin-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.spin-button:hover:enabled {
+  background-color: #45a049;
+}
